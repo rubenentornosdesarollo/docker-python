@@ -1,6 +1,10 @@
 FROM python:3.9
 ENV PYTHONUNBUFFERED 1
 
+RUN apt-get update \
+    && apt-get install -y default-mysql-client \
+    && apt-get install -y python3-venv
+
 RUN pip3 install mysql-connector mysqlclient
 
 RUN mkdir /code
