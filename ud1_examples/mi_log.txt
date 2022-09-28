@@ -1,0 +1,1 @@
+2022-09-21 14:19:11.376469 Iniciando registro de errores\n2022-09-21 14:19:11.376513 ERROR: Mira lo que se avesina\n2022-09-21 14:19:11.376516 Fin del registro de errores\n
